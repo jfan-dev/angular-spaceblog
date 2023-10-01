@@ -9,8 +9,15 @@
 
     font-family: Poppins,Helvetica,Arial,sans-serif;
     color: #fff;
+
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .flex { /* global display flex atribute */
     display:flex; 
+}
+
+.toUpper { /* global text-transform to uppercase atribute */
+    text-transform: uppercase;
 }

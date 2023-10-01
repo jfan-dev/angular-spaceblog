@@ -5,4 +5,51 @@ header {
 
     width: 100%;
     height: 5em; 
+
+    padding: 1em 1.5em;
+}
+
+.logo-mobile {
+    width: 4em;
+    height: 3em;
+}
+
+.logo-mobile > img {
+    width: 56.52px;
+}
+
+.menu-items{
+    width: 100%;
+    justify-content: flex-end;
+    font-size: .75em;
+    font-weight: 600;
+}
+
+.menu-items > ul {
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu-items > ul > li > a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padding-r-2em {
+    padding-right: 2rem;
+}
+
+.icon-heart::before {
+    content: url('https://api.iconify.design/mdi/heart.svg?color=%23cc4e12&width=24&height=24');
+    margin: 0px 4px;
+}
+
+.icon-rocket::before {
+    content: url('https://api.iconify.design/fa/rocket.svg?color=%23037cc2&width=20&height=20');
+    margin: 0px 4px;
+}
+
+.icon-bars::before {
+    content: url('https://api.iconify.design/fa/bars.svg?color=white');
+    margin: 0px 4px;
 }
