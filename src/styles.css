@@ -10,3 +10,7 @@
     font-family: Poppins,Helvetica,Arial,sans-serif;
     color: #fff;
 }
+
+.flex { /* global display flex atribute */
+    display:flex; 
+}
