@@ -1,0 +1,8 @@
+header {
+    position: fixed; /* fixed at top position. */ 
+    z-index: 999; /* make sure to not get coved by other components */
+    background-color: #000;
+
+    width: 100%;
+    height: 5em; 
+}
