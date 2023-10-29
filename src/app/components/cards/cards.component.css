@@ -26,10 +26,7 @@ h3 {
 }
 
 @media (min-width:1250px) {
-    
    :host {
     width: 30%;
    }
-
-    
 }
