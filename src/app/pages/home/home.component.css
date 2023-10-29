@@ -6,7 +6,6 @@ main {
 
 
 video {
-    
     width: 100%;
 }
 
@@ -134,7 +133,203 @@ line-height: 1;
 
 
 @media (min-width:1250px) {
+
+    .video-banner {
+        position: relative;
+        width: 100%;
+        height: 100vh; /* Adjust the height as needed */
+        overflow: hidden;
+        background: none;
+    }
     
+    .video-banner video {
+        position: absolute;
+        top: -10rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .video-textnform {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-120%, -70%);
+        color: white; /* Set text color */
+        text-align: center;
+        z-index: 1; /* Place this div in front of the video */
+        background-color:rgba(0,0,0,0.8);
+        width: 40%;
+    }
+
+    .video-textnform > h1 {
+        font-size: 4rem;
+        text-align: left;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    .video-textnform > p {
+        font-size: 1.25rem;
+        text-align: left;
+        line-height: 1.625;
+        margin: 1.5rem 0;
+        font-weight: 300;
+    }
+    
+    .video-textnform > .p-form {
+        font-size: .875rem;
+        line-height: 1.625;
+        font-weight: 300;
+        margin: .5rem 0 0 0;
+    }
+    
+    .video-textnform > .p-form > a {
+        text-decoration: underline;
+        color: #0063a9;
+    }
+    
+    .form {
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+    
+    .fk-btn {
+        text-align: center;
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+    
+    .links {
+        margin-bottom: 10px; /* Adjust margin as needed */
+        color: white; /* Set text color for links */
+    }
+    
+    .icon {
+        margin-left: 10px; /* Adjust margin as needed */
+    }
+    
+    .form {
+        display: flex;
+        height: 47px;
+        flex-direction: row;
+    }
+    #email {
+        text-align: left;
+        margin: 0;
+        width: 100%;
+    }
+    
+    #submit {
+        margin-left: 1rem;
+        width: auto;
+    }
+
+    
+
+    .fk-btn {
+        position: absolute;
+        bottom: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+        margin: 0;
+    }
+    .links {
+        width: 100%;
+        margin: 0;
+    }
+    .border-xs {
+        border: 0;
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+    }
+
+    .home-cards {
+        top: -10rem;
+        position: relative;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    /* .video-banner {
+        position: absolute;
+        height: 45rem;
+        width: 100%;
+    }
+    
+    video {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        top: 0; 
+    }
+    
+    .video-textnform {
+        position: relative;       
+        padding: 3rem;
+        background-color:rgba(0,0,0,0.8);
+        left: 2.1em;
+        top: 4.1em;    
+        width: 40%;
+        z-index: 999;
+            
+    }
+    
+    
+
+    
+
+    
+
+    .fk-btn {
+        background-color: #fff;
+        flex-direction: column;
+        font-size: 1.25rem;
+        font-weight: 600;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        position: relative;
+        top: -60rem;
+        z-index: 1;
+    }
+    
+    .links {
+       width: 100%;
+    }
+
+    .border-xs {
+        border-top: 0;
+        border-bottom: 0;
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+    }
+
+
+    .home-cards {
+        
+        margin-top: 25rem
+    }
+    /* .fk-btn {
+        position: absolute;
+        top: 49rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .banner-container {
+        max-height: 500px;
+    } */
+     
+
 }
 
 
