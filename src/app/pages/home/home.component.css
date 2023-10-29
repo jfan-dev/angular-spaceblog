@@ -248,87 +248,22 @@ line-height: 1;
     .home-cards {
         top: -10rem;
         position: relative;
+        display: block;
     }
 
     .cards-container {
+        margin: auto;
+        padding: 0;
+        width: 90%;
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    /* .video-banner {
-        position: absolute;
-        height: 45rem;
-        width: 100%;
-    }
-    
-    video {
-        position: relative;
-        width: 100%;
-        z-index: 1;
-        top: 0; 
-    }
-    
-    .video-textnform {
-        position: relative;       
-        padding: 3rem;
-        background-color:rgba(0,0,0,0.8);
-        left: 2.1em;
-        top: 4.1em;    
-        width: 40%;
-        z-index: 999;
-            
-    }
-    
-    
-
-    
-
-    
-
-    .fk-btn {
-        background-color: #fff;
-        flex-direction: column;
-        font-size: 1.25rem;
-        font-weight: 600;
-        display: flex;
-        flex-flow: row;
+        flex-wrap: wrap;
         justify-content: space-around;
-        position: relative;
-        top: -60rem;
-        z-index: 1;
-    }
-    
-    .links {
-       width: 100%;
     }
 
-    .border-xs {
-        border-top: 0;
-        border-bottom: 0;
-        border-right: 1px solid #fff;
-        border-left: 1px solid #fff;
+    .test {
+        width: 33%;
     }
-
-
-    .home-cards {
-        
-        margin-top: 25rem
-    }
-    /* .fk-btn {
-        position: absolute;
-        top: 49rem;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    .banner-container {
-        max-height: 500px;
-    } */
-     
+  
 
 }
 

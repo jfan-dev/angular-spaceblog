@@ -1,7 +1,3 @@
-p, h3{ 
-   
-}
-
 img {
     height: 16rem;
     width: 100%;
@@ -27,4 +23,13 @@ h3 {
 
 .card-box {
     margin-bottom: 4rem;
+}
+
+@media (min-width:1250px) {
+    
+   :host {
+    width: 30%;
+   }
+
+    
 }
