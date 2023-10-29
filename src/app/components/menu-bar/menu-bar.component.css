@@ -10,14 +10,17 @@ header {
     padding: 1em 1.5em;
 }
 
-.logo-mobile {
-    width: 4em;
+
+.logo-responsive {
+    background-image: url('/assets/TPS_Logomark-White.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4.2rem;
     height: 3em;
+    /* width: 56.52px; */
 }
 
-.logo-mobile > img {
-    width: 56.52px;
-}
+
 
 .menu-items{
     width: 100%;
@@ -53,4 +56,91 @@ header {
 .icon-bars::before {
     content: url('https://api.iconify.design/fa/bars.svg?color=white');
     margin: 0px 4px;
+}
+
+@media (min-width:1250px) {
+    
+    header {
+        position: fixed; /* fixed at top position. */ 
+        z-index: 999; /* make sure to not get coved by other components */
+        background-color: #000;
+        top: 0;
+    
+        width: 100%;
+        height: 5em; 
+    
+        padding: 1em 1.5em;
+    }
+    p {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+   
+    .logo-responsive {
+        background-image: url('src/assets/TPS_Logo_3Stack-White.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 11.2em;
+        height: 3rem;
+    }
+    
+    .menu-items{
+        width: 100%;
+        /* justify-content: flex-end; */
+        /* font-size: .75em; */
+        font-weight: 600;
+    }
+    /* .button {
+        padding: 4px 24px;
+    }
+    .icon-heart{
+        background-color: #BF4105;
+        height: 27px;
+        width: 60px;
+        
+    }
+
+    .icon-rocket {
+        background-color: #0063A9;
+        height: 27px;
+        width: 60px;
+    } */
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .icon-heart p {
+        background-color: #BF4105;
+        padding: 4px 24px;
+        
+    }
+
+    .icon-rocket p {
+        background-color: #0063A9;
+        
+        padding: 4px 24px;
+    }
+
+    .icon-bars {
+        display: none;
+    }
+
+    .icon-heart::before {
+        content: none;
+    }
+    
+    .icon-rocket::before {
+        content: none;   
+    }
+    
+    .icon-bars::before {
+        content: none;
+    }
+
+
 }
